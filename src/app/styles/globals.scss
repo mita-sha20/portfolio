@@ -1,0 +1,13 @@
+@import "./variables";
+@import "./breakpoints";
+@import "./reset";
+
+@import "../../components/Layout/navbar/menubar.scss";
+@import "../../components/Layout/footer/footer.scss";
+@import "../../components/Hero/hero.scss";
+@import "../../components/About/about.scss";
+@import "../../components/Services/service.scss";
+@import "../../components/Portfolio/portfolio.scss";
+@import "../../components/Blog/blog.scss";
+@import "../../components/Partner/partner.scss";
+@import "../../components/Subscribe/subscribe.scss"; 

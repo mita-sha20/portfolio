@@ -1,0 +1,102 @@
+.blog{
+    margin-top: 100px;
+    text-align: center;
+    @include media-breakpoint-down(md){
+        margin-top: 20px;
+     }
+    h1{
+        font-size: 48px;
+        font-weight: 700;
+        color: $black-color;
+        margin-bottom: 30px;
+        @include media-breakpoint-down(md){
+        font-size: 30px;
+        margin-bottom: 15px;
+         }
+    }
+    p{
+        font-size: 17px;
+        font-weight: 400;
+        color: $text-color;
+        line-height: 32px;
+        padding-left: 310px;
+        padding-right: 310px;
+        margin-bottom: 100px;
+        @include media-breakpoint-down(md){
+            font-size: 14px;
+            line-height: 25px;
+            padding-left: 10px;
+            padding-right: 10px;
+            margin-bottom: 20px;
+         }
+         @include media-breakpoint-up(md){
+            font-size: 15px;
+            line-height: 25px;
+            padding-left: 0px;
+            padding-right: 0px;
+            margin-bottom: 20px;
+         }
+    }
+}
+.blog-main{
+    margin-bottom: 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    .blog-part{
+        box-sizing: border-box;
+        border: 5px solid $white-secondary;
+        border-radius: 15px;
+    }
+    .blog-second{
+        display: flex;
+       span{
+        margin-left: 10px;
+        font-size: 35px;
+        color: $text-color;
+       }
+       p{
+        margin-top: 22px;
+        margin-left: 10px;
+        font-size: 18px;
+        color: $text-color;
+       }
+    }
+    .blog-third{
+        p{
+            margin-top: 15px;
+            margin-left: 15px;
+            font-size: 17px;
+            font-weight: 700;
+            color: $black-color;
+        }
+    }
+    .blog-four{
+        h6{
+            margin-top: 20px;
+            margin-left: 15px;
+            margin-bottom: 30px;
+        }
+    }
+}
+
+.one{
+    background-color: aqua;
+    width: 10px;
+    height: 50px;
+}
+.two{
+    background-color: aqua;
+    width: 10px;
+    height: 50px;
+}
+.three{
+    background-color: aqua;
+    width: 10px;
+    height: 50px;
+}
+.four{
+    background-color: aqua;
+    width: 10px;
+    height: 50px;
+}

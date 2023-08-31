@@ -1,0 +1,92 @@
+nav{
+    a{
+        color: $black-color;
+        font-size: 18px;
+        transition: all linear 0.3s;
+        &:hover{
+            color: $main-color;
+        }
+    }
+    button{
+        background-color: $main-color; 
+        padding: 14px 30px;
+        outline: none;
+        border: none;
+        color: $white-color;
+        border-radius: 8px;
+        font-size: 15px;
+    }
+}
+
+.mobile-menu{
+    .bars-mobile{
+       svg{
+        cursor: pointer;
+       }
+    }
+    .sidebar{
+        .cross{
+            position: absolute;
+            top: 20px;
+            right: 50px;
+            cursor: pointer;
+        }
+        position: fixed;
+        right: -100%;
+        top: 0;
+        width: 350px;
+        height: 100vh;
+        background-color: #f5f5f5;
+        z-index: 9999;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        ul{
+            padding-left: 0 !important;
+            text-align: center;
+            li{
+                margin: 15px 0;
+                a{
+                    color: $black-color;
+                    font-size: 18px;
+                    transition: all linear 0.3s;
+                    &:hover{
+                        color: $main-color;
+                    }
+                }
+            }
+        }
+    }
+    button{
+        background-color: $main-color; 
+        padding: 14px 30px;
+        outline: none;
+        border: none;
+        color: $white-color;
+        border-radius: 8px;
+        font-size: 15px;
+    }
+}
+
+.stickynav{
+    width: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-color: $white-color;
+    z-index: 9999;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    box-shadow: 0px 10px 91px 0px rgba(0, 0, 0, 0.15);
+    animation: stickynavs 0.6s;
+}
+
+@keyframes stickynavs{
+    0%{
+        top : -80%;
+    }
+    100%{
+        top: 0;
+    }
+}
