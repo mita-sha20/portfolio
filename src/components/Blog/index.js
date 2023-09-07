@@ -59,12 +59,12 @@ const Blog = () => {
       </div>
     </div>
       </div>
-      <div>
+      
         
         <Slider {...settings}>
         {
               Blogdata.map((item,i)=>(
-                  <>
+                
               
               <div key={i} className='blog-part'>
               
@@ -83,11 +83,11 @@ const Blog = () => {
                   </div>
                   </div>
                  
-                  </>
+                
               ))
             }
         </Slider>
-      </div>
+      
       
                 {/* {
               Blogdata.map((item,i)=>(

@@ -26,6 +26,34 @@ const Blogdata = [
         para:"Exchange Rate ofBitcoin system",
         text:"Read More",
     },
+    {
+        image:<Image src={thirdimage} alt="thirdimage"/>,
+        icon:<MdDateRange/>,
+        date:"10 January 2023",
+        para:"Exchange Rate ofBitcoin system",
+        text:"Read More",
+    },
+    {
+        image:<Image src={thirdimage} alt="thirdimage"/>,
+        icon:<MdDateRange/>,
+        date:"10 January 2023",
+        para:"Exchange Rate ofBitcoin system",
+        text:"Read More",
+    },
+    {
+        image:<Image src={thirdimage} alt="thirdimage"/>,
+        icon:<MdDateRange/>,
+        date:"10 January 2023",
+        para:"Exchange Rate ofBitcoin system",
+        text:"Read More",
+    },
+    {
+        image:<Image src={thirdimage} alt="thirdimage"/>,
+        icon:<MdDateRange/>,
+        date:"10 January 2023",
+        para:"Exchange Rate ofBitcoin system",
+        text:"Read More",
+    },
    
 ];
 
