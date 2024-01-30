@@ -47,9 +47,9 @@ const Portfolio = () => {
            We <span>Run</span>   Agency<span> Smartly</span> With
            Our <span>Team</span>  Member.
            </h3>
-           <p>
-           There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look.
-           </p>
+           {/* <p>
+           There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form by injected humour or randomised words which don't look
+           </p> */}
            <ul>
             {
                 portfoliodata.map((item,i)=>(

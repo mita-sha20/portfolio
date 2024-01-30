@@ -20,8 +20,8 @@ const Copyright = () => {
              <ul className="d-flex justify-content-center gap-4">
                 {
                    Btnfooter.map((item,i)=>(
-                    <li>
-                        <Link href={item.link}className={OpenSans.className} key={i}>{item.title}</Link>
+                    <li key={i}>
+                        <Link href={item.link}className={OpenSans.className}>{item.title}</Link>
                     </li>
                    ))
                 }
